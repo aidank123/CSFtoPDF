@@ -1,0 +1,13 @@
+"A lithium ion battery is composed of anode, a cathode, and an electrolyte medium separating the two.",Battery and labels appear.
+"When the battery is discharging, positively charged lithium ions move from the cathode to the anode.",Lithium ions appear and begin moving from the cathode to the anode.
+The resulting accumulation of positive charge at the anode causes an electron current to develop.,Electrons appears and move along the “wire” joining cathode to anode.
+"However, a lithium ion battery can have an internal impedance that limits its performance.","Graph of current appears, showing a difference between ideal and actual performance."
+Determining which parts of the battery contribute the most to this impedance is not straightforward.,"Question mark labels appear, pointing to various parts."
+NIST researchers have recently developed a method for measuring internal impedance by using two complementary techniques: contact potential difference measurements and neutron imaging.,Text on screen.
+"To measure the contact difference potential, the researchers cut a battery open and recorded the potential difference between a probe and the internal surface as the probe was moved across the battery.","Probe moves across battery, trace of “potential difference” follows the probe."
+They found that the voltage drops occur at the cathode/electrolyte and the electrolyte/anode interfaces.,Relevant regions of the”potential difference” graph are highlighted.
+"Next, the researchers used neutrons to image the battery.","“Neutron source” appears, particles fly into the battery and disappear."
+"When a neutron collides with a lithium ion, alpha (4He) and triton (3H) particles are produced.","Battery disappears and is replaced by neutron and lithium particles, which collide to form alpha and triton particles."
+"By measuring the quantity and energy of these particles, the researchers can map the concentration of lithium ions inside the battery.","Battery reappears, detector appears, particles fly into and out of the battery."
+"In doing so, they found a large difference in the concentration of lithium atoms between the electrolyte and the anode.",Overlay of lithium ion and concentration process.
+"By correlating the results of these two measurements, the researchers were able to isolate the electrolyte/anode interface as the main contributor to impedance in the battery. ","Both methods shown side by side, arrows combine pointing towards inset of Si/LiPON interface."
