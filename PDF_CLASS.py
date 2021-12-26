@@ -1,5 +1,8 @@
 #PDF CLASS
 
+#filepath to fonts
+font_filepath = '/Users/aidankelley/Library/Fonts/DejaVuSansCondensed.ttf'
+
 #python pdf module
 from fpdf import FPDF
 
@@ -108,7 +111,7 @@ class PDF:
                 # Add a page. A4 format by default.
                 pdf.add_page()
                 # set style and size of font
-                pdf.add_font('DejaVu', '', '/Users/aidankelley/Library/Fonts/DejaVuSansCondensed.ttf', uni=True)
+                pdf.add_font('DejaVu', '', font_filepath, uni=True)
                 pdf.set_font("DejaVu",'', size = 12)
                 self.first_frame(self.captions_descriptions[i])
                 self.number_frame_1(str(i + 1))
@@ -122,6 +125,7 @@ class PDF:
         self.output_pdf()
         
     def output_pdf(self):
-        # save the pdf with name .pdf
-        pdf.output(self.output_filename)  
+        # save the pdf with the name chosen
+        pdf.output(self.output_filename)
+        print("Success!")
         
